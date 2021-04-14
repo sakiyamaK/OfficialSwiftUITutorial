@@ -44,5 +44,6 @@ struct LandmarkList_Previews: PreviewProvider {
       LandmarkList()
         .previewDevice(PreviewDevice(rawValue: deviceName))
     }
+    .environmentObject(ModelData())
   }
 }
